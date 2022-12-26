@@ -43,9 +43,11 @@ gameList = [item for sublist in gameList for item in sublist]
 ```
 gameList = [48, 52, 132, 142, 153, 166, 222, 252, 343, 356, 390, 599, 779, 861, 862, 1044, 1058, 1067, 1182, 1268]
 ```
-
-_method_preference_: The method preference for room scoring calculation. 
+**_method_preference_**: The method preference for room scoring calculation. 
 - ML: Machine Learning, specifically Convolutional Neural Networks
+```
+method_preference = "ML"
+```
 
 _no_pedestrians_: The number of pedestrians to be used in the simulation
 - _no_pedestrians_ number of pedestrians are generated of each type (a total of 5*_no_pedestrians_) on Map 7 and then projected onto each game.
