@@ -5,5 +5,6 @@ It uses Map 7 data and play throughs for two tasks:
 1. Extracting abnormal trajectory to distinguish between the attacker human player and the simulated pedestrian
 2. Running a risk score for every room that determines the risk for every room
 
-#main.py
+# main.py 
+
 **Parameters**:
