@@ -7,8 +7,12 @@ It uses Map 7 data and play throughs for two tasks:
 
 ## Getting Started
 
-Use the requirements.txt to install all modules necessary. The rest can be run by the command
+Use the requirements.txt to install all modules necessary. 
+```
+pip install -r requirements.txt
+```
 
+The rest can be run by the command
 ```
 python main.py
 ```
