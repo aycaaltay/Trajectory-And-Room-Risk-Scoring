@@ -2,7 +2,7 @@
 Trajectory and Room Risk Scoring Structures for the Paint Fever Game
 
 It uses Map 7 data and play throughs for two tasks:
-1. Extracting abnormal trajectory to distinguish between the attacker human player and the simulated pedestrian
+1. Extracting abnormal trajectory to distinguish between the attacker human player and the simulated pedestrians
 2. Running a risk score for every room that determines the risk for every room
 
 ## Getting Started
@@ -12,6 +12,11 @@ Use the requirements.txt to install all modules necessary. The rest can be run b
 ```
 python main.py
 ```
+
+Below, there are explanation of three main parts
+a. The information on the main file (regardless of the task you want to do)
+b. Information on methodology and outputs for calculating room scores
+c. Information on methodology and outputs for distinguishing human player (attacker) and simulated pedestrians
 
 ## Main file information
 
