@@ -20,8 +20,16 @@ python main.py
 **Parameters**:
 
 _analysis_type:_ Assign the analysis number you want to do (takes integer values: 1 or 2)
-1. To calculate room risk scoring
-2. To calculate separating human player and pedestrians
+1. For calculating the room risk score, use 
+```
+analysis_type = 1
+```
+2. For distinguishing the human player and pedestrians, use
+
+```
+analysis_type = 2
+```
+No other values can be used at this stage. 
 
 _gameList_: The list of games to be analyzed (Should be introduced from a csv file or entered manually)
 - The games should be played on Map 7. 
