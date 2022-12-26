@@ -19,7 +19,7 @@ python main.py
 
 **Parameters**:
 
-_analysis_type:_ Assign the analysis number you want to do (takes integer values: 1 or 2)
+**_analysis_type_**: Assign the analysis number you want to do (takes integer values: 1 or 2)
 1. For calculating the room risk score, use 
 ```
 analysis_type = 1
