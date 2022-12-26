@@ -68,3 +68,7 @@ no_pedestrians = 1000
 second_indices = [5]
 ```
 - The above instance analyzes the first 5 seconds separately than the rest. 
+
+## Calculating Room Risk Scores
+
+
