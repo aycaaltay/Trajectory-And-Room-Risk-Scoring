@@ -25,14 +25,23 @@ python main.py
 analysis_type = 1
 ```
 2. For distinguishing the human player and pedestrians, use
-
 ```
 analysis_type = 2
 ```
 No other values can be used at this stage. 
 
-_gameList_: The list of games to be analyzed (Should be introduced from a csv file or entered manually)
+**_gameList_**: The list of games to be analyzed (Should be introduced from a csv file or entered manually)
 - The games should be played on Map 7. 
+- There are two ways to introduce the list of games to be analyzed.
+1. Introducing through a .xlsx or .csv file
+```
+gameList = pd.read_excel("gameList.xlsx").values.tolist()
+gameList = [item for sublist in gameList for item in sublist]
+```
+2. Entering manually
+```
+gameList = [48, 52, 132, 142, 153, 166, 222, 252, 343, 356, 390, 599, 779, 861, 862, 1044, 1058, 1067, 1182, 1268]
+```
 
 _method_preference_: The method preference for room scoring calculation. 
 - ML: Machine Learning, specifically Convolutional Neural Networks
