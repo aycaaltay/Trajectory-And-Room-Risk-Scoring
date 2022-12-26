@@ -54,7 +54,7 @@ gameList = [48, 52, 132, 142, 153, 166, 222, 252, 343, 356, 390, 599, 779, 861, 
 method_preference = "ML"
 ```
 
-**_no_pedestrians_:** The number of pedestrians to be used in the simulation
+**_no_pedestrians_**: The number of pedestrians to be used in the simulation
 ```
 no_pedestrians = 1000
 ```
@@ -62,3 +62,9 @@ no_pedestrians = 1000
 - Pedestrians are not simulated separately for each game. Same _no_pedestrians_ pedestrians are used on the games.
 - There is no need to run the pedestrian simulation at every run unless the gameList is not changed.
 - If gameList is updated, then simulations must be run.
+
+**_second_indices_**: The partition of seconds for analysis. 
+```
+second_indices = [5]
+```
+- The above instance analyzes the first 5 seconds separately than the rest. 
