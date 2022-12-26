@@ -16,3 +16,11 @@ _analysis_type:_ Assign the analysis number you want to do (takes integer values
 _gameList_: The list of games to be analyzed (Should be introduced from a csv file or entered manually)
 - The games should be played on Map 7. 
 
+_method_preference_: The method preference for room scoring calculation. 
+- ML: Machine Learning, specifically Convolutional Neural Networks
+
+_no_pedestrians_: The number of pedestrians to be used in the simulation
+- _no_pedestrians_ number of pedestrians are generated of each type (a total of 5*_no_pedestrians_) on Map 7 and then projected onto each game.
+- Pedestrians are not simulated separately for each game. Same _no_pedestrians_ pedestrians are used on the games.
+- There is no need to run the pedestrian simulation at every run unless the gameList is not changed.
+- If gameList is updated, then simulations must be run.
