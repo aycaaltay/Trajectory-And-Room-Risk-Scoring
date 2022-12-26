@@ -8,11 +8,8 @@ It uses Map 7 data and play throughs for two tasks:
 # main.py 
 
 **Parameters**:
+
 _analysis_type:_ Assign the analysis number you want to do (takes integer values: 1 or 2)
-
-Possible values:
-
-1: To calculate room risk scoring
-
-2: To calculate separating human player and pedestrians
+1. To calculate room risk scoring
+2. To calculate separating human player and pedestrians
 
