@@ -13,9 +13,10 @@ Use the requirements.txt to install all modules necessary. The rest can be run b
 python main.py
 ```
 
-## File information
+## Main file information
 
 ### main.py 
+You can select what you want to do and run the program.
 
 **Parameters**:
 
