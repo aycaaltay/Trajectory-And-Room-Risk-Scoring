@@ -14,9 +14,9 @@ python main.py
 ```
 
 Below, there are explanation of three main parts
-a. The information on the main file (regardless of the task you want to do)
-b. Information on methodology and outputs for calculating room scores
-c. Information on methodology and outputs for distinguishing human player (attacker) and simulated pedestrians
+1. The information on the main file (regardless of the task you want to do)
+2. Information on methodology and outputs for calculating room scores
+3. Information on methodology and outputs for distinguishing human player (attacker) and simulated pedestrians
 
 ## Main file information
 
