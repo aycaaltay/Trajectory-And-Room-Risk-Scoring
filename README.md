@@ -94,4 +94,12 @@ The initial task is to determine the output structure. The output can be binary 
 
 Similarly, both output types can be used for regression and classification. 
 
-#### Parameters necessary for both ML and Traditional Statistical Methods
+#### Parameters necessary for both ML and traditional statistical methods
+
+**_output_type_**: "multiclass" for the distance from the attacker, "binary" for the classification of whether the attacker is in the room or not.
+
+#### Parameters required for traditional statistical methods
+
+**_sliced_**: True or False
+- If False, the whole data is analyzed together
+- If True, the data is sliced as given in the seconds_interval parameter. For example, for seconds_interval = 5, the first 4 seconds are analyzed separately, and the rest of the data (after 5 seconds) are analyzed separately. 
