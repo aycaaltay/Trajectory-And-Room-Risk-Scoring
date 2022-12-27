@@ -106,3 +106,28 @@ Similarly, both output types can be used for regression and classification.
 
 **_analysis_method_**: Whether we will use classification or regression methods on the data. 
 
+When classification is selected as the analysis method, the following methods are implemented:
+1. Logistic Regression
+2. Random Forest Classifier
+3. Gaussian Naive Bayes Classifier
+4. ADABoost Classifier
+5. Support Vector Machines
+6. Hybrid Classifier (Voting)
+```
+analysis_method = "classification"
+```
+
+When regression is assigned as the analysis method, the following methods are implemented:
+1. Linear Regression
+2. Ridge Regression
+3. LASSO
+4. Polynomial Regression
+5. Bayesian Ridge Regression
+6. Support Vector Regression
+7. Regression Tree
+8. Ordinal Regression
+9. Hybrid Regression (Minimum Least Squares of all methods)
+```
+analysis_method = "regression"
+```
+
