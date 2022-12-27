@@ -77,4 +77,10 @@ second_indices = [5]
 
 ### mainRoomScoring.py
 
+Room scoring can be done with traditional statistical methods or with Convolutional Neural Networks. The data generation for either method is created in this file, and each related file will be presented separately. 
 
+The initial task is to determine the output structure. 
+
+### Generating Regression Data
+
+### Generating Classification Data
