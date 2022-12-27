@@ -143,7 +143,7 @@ analysis_method = "regression"
 - If False, the whole data is processed at once. 
 - If True, the data will be pre-processed with a dimension reduction method before being processed. 
 
-**_dimension_reduction_method_**: Three dimension reduction methods are available.
+**_dimension_reduction_method_**: Three dimension reduction methods are available. It is run if dimension_reduction parameter is set to True. 
 1. PCA
 ```
 dimension_reduction_method = "PCA"
