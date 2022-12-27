@@ -55,7 +55,11 @@ gameList = [48, 52, 132, 142, 153, 166, 222, 252, 343, 356, 390, 599, 779, 861, 
 **_method_preference_**: The method preference for room scoring calculation. 
 - ML: Machine Learning, specifically Convolutional Neural Networks
 ```
-method_preference = "ML"
+method_preference = "ML" 
+```
+- stats: Traditional statistical techniques
+```
+method_preference = "stats" 
 ```
 
 **_no_pedestrians_**: The number of pedestrians to be used in the simulation
@@ -73,6 +77,8 @@ second_indices = [5]
 ```
 - The above instance analyzes the first 5 seconds separately than the rest. 
 
+**_input_columns_**: The columns that will NOT be used in the analysis (gameID, distance_attacker, etc.)
+
 ## Calculating Room Risk Scores
 
 ### mainRoomScoring.py
@@ -87,3 +93,5 @@ The initial task is to determine the output structure. The output can be binary 
 
 
 Similarly, both output types can be used for regression and classification. 
+
+#### Parameters necessary for both ML and Traditional Statistical Methods
