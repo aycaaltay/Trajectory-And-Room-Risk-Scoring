@@ -98,7 +98,7 @@ Similarly, both output types can be used for regression and classification.
 
 **_output_type_**: "multiclass" for the distance from the attacker, "binary" for the classification of whether the attacker is in the room or not.
 
-### Using Statistical Methods
+### Using Statistical Methods for Room Scoring
 
 #### Parameters required for traditional statistical methods
 
@@ -135,10 +135,26 @@ analysis_method = "regression"
 
 **_no_trials_**: The number of runs for each algorithm.
 
-### Using ML
+### Using ML for Room Scoring
 
 #### Parameters required for ML
 
+**_dimension_reduction_**: True or False
+- If False, the whole data is processed at once. 
+- If True, the data will be pre-processed with a dimension reduction method before being processed. 
 
+**_dimension_reduction_method_**: Three dimension reduction methods are available.
+1. PCA
+```
+dimension_reduction_method = "PCA"
+```
+2. Sparse PCA
+```
+dimension_reduction_method = "sparse_PCA"
+```
+3. Fast ICA
+```
+dimension_reduction_method = "FastICA"
+```
 
 
