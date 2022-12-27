@@ -103,3 +103,6 @@ Similarly, both output types can be used for regression and classification.
 **_sliced_**: True or False
 - If False, the whole data is analyzed together
 - If True, the data is sliced as given in the seconds_interval parameter. For example, for seconds_interval = 5, the first 4 seconds are analyzed separately, and the rest of the data (after 5 seconds) are analyzed separately. 
+
+**_analysis_method_**: Whether we will use classification or regression methods on the data. 
+
