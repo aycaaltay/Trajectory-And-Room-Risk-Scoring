@@ -82,7 +82,8 @@ Room scoring can be done with traditional statistical methods or with Convolutio
 The initial task is to determine the output structure. The output can be binary or multiclass depending on the structure below. 
 - If it's binary, the the room that the human player is in gets a value of 1, and the other rooms each get a value of 0.  
 - If it's multi-class, the room that the human player is in gets a value of 0, and the other rooms get the adjacency value (number of hops) from that room as shown in the picture. 
-https://github.com/aycaaltay/Trajectory-And-Room-Risk-Scoring/blob/main/Figures/Room%20Scoring.png
+- 
+![alt text](https://github.com/aycaaltay/Trajectory-And-Room-Risk-Scoring/blob/main/Figures/Room%20Scoring.png?raw=true)
 
 ### Generating Regression Data
 
