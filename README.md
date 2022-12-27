@@ -83,6 +83,6 @@ The initial task is to determine the output structure. The output can be binary 
 - If it's binary, the the room that the human player is in gets a value of 1, and the other rooms each get a value of 0.  **generateBinaryData.py** generates these outputs.
 - If it's multi-class, the room that the human player is in gets a value of 0, and the other rooms get the adjacency value (number of hops) from that room as shown in the picture. **generateMulticlassData.py** generates these outputs.
 - 
-![alt text](https://github.com/aycaaltay/Trajectory-And-Room-Risk-Scoring/blob/main/Figures/Room%20Scoring.png?raw=true){ width=50% }
+![alt text](https://github.com/aycaaltay/Trajectory-And-Room-Risk-Scoring/blob/main/Figures/Room%20Scoring.png =250x)
 
 Similarly, both output types can be used for regression and classification. 
