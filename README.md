@@ -98,6 +98,8 @@ Similarly, both output types can be used for regression and classification.
 
 **_output_type_**: "multiclass" for the distance from the attacker, "binary" for the classification of whether the attacker is in the room or not.
 
+### Using Statistical Methods
+
 #### Parameters required for traditional statistical methods
 
 **_sliced_**: True or False
@@ -131,4 +133,12 @@ analysis_method = "regression"
 8. Ordinal Regression
 9. Hybrid Regression (Minimum Least Squares of all methods)
 
-**_no_trials_**: The number of runs for each algorithm. 
+**_no_trials_**: The number of runs for each algorithm.
+
+### Using ML
+
+#### Parameters required for ML
+
+
+
+
