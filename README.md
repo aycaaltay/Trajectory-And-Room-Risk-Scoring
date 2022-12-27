@@ -131,3 +131,4 @@ analysis_method = "regression"
 8. Ordinal Regression
 9. Hybrid Regression (Minimum Least Squares of all methods)
 
+**_no_trials_**: The number of runs for each algorithm. 
