@@ -150,7 +150,7 @@ dimension_reduction_method = "PCA"
 ```
 2. Sparse PCA
 ```
-dimension_reduction_method = "sparse_PCA"
+dimension_reduction_method = "sparsePCA"
 ```
 3. Fast ICA
 ```
